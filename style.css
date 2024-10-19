@@ -4,13 +4,13 @@
 }
 @font-face {
   font-family: "KA";
-  src: url(Fontes/Starjedi.ttf) format(truetype);
+  src: url(Starjedi.ttf) format(truetype);
 }
 body {
   backdrop-filter: blur(5px);
   height: 100vh;
   overflow-x: hidden;
-  background-image: url(Imagens/Background.jpg);
+  background-image: url(Background.jpg);
 }
 header {
   text-align: center;
