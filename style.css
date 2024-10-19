@@ -112,3 +112,56 @@ footer p{
   color: blue;
   transition: 0.5s;
 }
+
+@media screen and (max-width: 600px){
+  body{
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+  }
+  header h1{
+    font-size: medium;
+  }
+  .imagens{
+    width: 250px;
+    height: 350px;
+  }
+  header a{
+    font-size: medium;
+  }
+  .games{
+    display: grid;
+  }
+  .game{
+    width: 250px;
+    height: 350px;
+  }
+  footer{
+    display: none;
+    pointer-events: none;
+  }
+  
+}
+@media screen and (min-width: 601px) and (max-width: 1300px) {
+  .game{
+    width: 300px;
+    height: 400px;
+  }
+  .games{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 100px;
+  }
+  .imagens{
+    width: 300px;
+    height: 400px;
+  }
+  body{
+    height: 100%;
+  }
+  footer{
+    display: none;
+    pointer-events: none;
+  }
+}
